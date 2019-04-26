@@ -2,13 +2,13 @@
 language: python
 
 python: 
-    -"3.6-dev"
+    - "3.6"
 
 install:
-    -pip install -r requirements.txt
+    - pip install -r requirements.txt
     
 script: true
-    -nosettests --with-coverage --coverage report
+    - nosettests --with-coverage --coverage report
     
 script: 
-    -python Calculator.py
+    - python Calculator.py
