@@ -11,4 +11,4 @@ script: true
     - nosettests --with-coverage --coverage report
     
 script: 
-    - python Calculator.py
+    - python TestCalculator.py
